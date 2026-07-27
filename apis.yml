@@ -1,7 +1,16 @@
 aid: garmentory
 name: Garmentory
-description: Garmentory is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Garmentory is a Seattle-based online fashion marketplace that connects shoppers
+  with more than 1,000 independent boutiques and emerging designers across 30+
+  countries. Backed by Techstars, the platform curates apparel, accessories, and
+  footwear from independent retailers, letting boutiques list inventory manually
+  or sync it through a Shopify integration. Garmentory runs a heavily customized
+  Spree Commerce (Ruby on Rails) storefront and consumes third-party APIs
+  (payments, retail media, and merchant onboarding) rather than publishing a
+  first-party public developer API. This profile tracks Garmentory's identity and
+  public web properties in the API Evangelist network; no OpenAPI, developer
+  portal, or API reference is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/garmentory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.garmentory.com/assets/garmentory_share_1-6cdc141ec2b36d5a9333eb0cbc540bc9.jpg
 tags:
 - Company
+- Fashion
+- Marketplace
+- E-commerce
+- Retail
+- Apparel
+- Boutiques
+- Shopping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,22 @@ maintainers:
 common:
 - type: Website
   url: https://garmentory.com/
+- type: Support
+  url: https://www.garmentory.com/static/support
+- type: Blog
+  url: https://www.garmentory.com/the-thread
+- type: SignUp
+  url: https://www.garmentory.com/signup
+- type: Login
+  url: https://www.garmentory.com/login
+- type: TermsOfService
+  url: https://www.garmentory.com/static/terms_and_privacy
+- type: PrivacyPolicy
+  url: https://www.garmentory.com/static/privacy_center
+- type: DomainSecurity
+  url: security/garmentory-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

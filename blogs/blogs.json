@@ -1,0 +1,14 @@
+{
+  "repo": "garmentory",
+  "feeds": [
+    {
+      "source": "https://www.garmentory.com/static/support",
+      "feed_url": "https://www.garmentory.com/static/support",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
