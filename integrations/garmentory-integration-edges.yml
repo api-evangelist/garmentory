@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/garmentory/integrations
+- https://n8n.io/integrations/garmentory/
+- https://composio.dev/toolkits/garmentory
+- https://monid.ai/tools/garmentory
+checked:
+- https://composio.dev/toolkits/garmentory
+- https://monid.ai/tools/garmentory
+- https://n8n.io/integrations/garmentory/
+- https://zapier.com/apps/garmentory/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
